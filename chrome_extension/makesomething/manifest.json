@@ -1,0 +1,11 @@
+{
+    "name": "Make Something People Want",
+    "version": "1.0",
+    "description": "Redirects your list of distracting sites to makesomethingpeoplewant.org",
+    "background_page" : "background.html",
+    "permissions" : [
+    "tabs"
+    ],
+    "options_page" : "options.html"
+}
+

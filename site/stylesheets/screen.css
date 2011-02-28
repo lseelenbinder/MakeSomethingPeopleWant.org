@@ -1,0 +1,70 @@
+/* line 1 */
+body {
+  background-color: black;
+  color: #cccccc;
+  font-family: "Josefin Sans", arial, sans;
+  font-size: 2em;
+}
+
+/* line 7 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 13 */
+table {
+  border: none;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  width: 800px;
+}
+
+/* line 18 */
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 22 */
+a {
+  color: #cccccc;
+}
+
+/* line 25 */
+h1 {
+  font-family: "Calligraffitti", arial, serif;
+}
+
+/* line 28 */
+#us {
+  font-size: 0.5em;
+  font-style: italic;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 38 */
+.quote {
+  margin: 0 auto 0 auto;
+  padding-top: 15px;
+  width: 500px;
+}
+/* line 43 */
+.quote .source {
+  text-align: right;
+  font-style: italic;
+}
+
+/* line 47 */
+.instructions {
+  font-size: 0.75em;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  width: 500px;
+}

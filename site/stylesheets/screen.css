@@ -2,7 +2,7 @@
 body {
   background-color: black;
   color: #cccccc;
-  font-family: "Merriweather", arial, serif;
+  font-family: "Merriweather", "Helvetica", arial, serif;
   font-size: 1.65em;
 }
 
@@ -51,10 +51,11 @@ a {
 /* line 38 */
 .quote .source {
   text-align: right;
+  font-weight: normal;
   font-style: italic;
 }
 
-/* line 42 */
+/* line 43 */
 .instructions {
   font-size: 0.75em;
   margin: 0 auto 0 auto;

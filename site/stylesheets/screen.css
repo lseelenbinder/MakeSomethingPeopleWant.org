@@ -2,8 +2,8 @@
 body {
   background-color: black;
   color: #cccccc;
-  font-family: "Josefin Sans", arial, sans;
-  font-size: 2em;
+  font-family: "Merriweather", arial, serif;
+  font-size: 1.65em;
 }
 
 /* line 7 */
@@ -34,11 +34,6 @@ a {
 }
 
 /* line 25 */
-h1 {
-  font-family: "Calligraffitti", arial, serif;
-}
-
-/* line 28 */
 #us {
   font-size: 0.5em;
   font-style: italic;
@@ -49,19 +44,19 @@ h1 {
   top: 0;
 }
 
-/* line 38 */
+/* line 35 */
 .quote {
   margin: 0 auto 0 auto;
   padding-top: 15px;
   width: 500px;
 }
-/* line 43 */
+/* line 40 */
 .quote .source {
   text-align: right;
   font-style: italic;
 }
 
-/* line 47 */
+/* line 44 */
 .instructions {
   font-size: 0.75em;
   margin: 0 auto 0 auto;

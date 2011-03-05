@@ -1,0 +1,12 @@
+{
+    "quotes" : [
+        {"author" : "Steve Jobs", "quote" : "Stay hungry. Stay foolish."},
+        {"author" : "Paul Graham", "quote" : "Make something people want."},
+        {"author" : "Jim Elliot", "quote" : "He is no fool who gives what he cannot keep to gain what he cannot lose."},
+        {"author" : "Aristotle", "quote" : "We are what we repeatedly do. Excellence then, is not an act, but a habit."},
+        {"author" : "Henry Ford", "quote" : "Failure is the opportunity to begin again more intelligently."},
+        {"author" : "R.W. Emerson", "quote" : "Do not go where the path may lead; go instead where there is no path and leave a trail."},
+        {"author" : "Voltaire", "quote" : "I detest what you write, but I would give my life to make it possible for you to continue to write."},
+        {"author" : "Nordstrom Employee Manual", "quote" : "Rule #1: Use best judgement in all situations. There will be no additional rules."}
+    ]
+}

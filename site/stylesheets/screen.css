@@ -1,13 +1,12 @@
 /* line 1 */
 body {
   background-color: black;
-  color: white;
-  font-family: "Helvetica", arial, sans;
-  font-size: 1.9em;
-  font-weight: lighter;
+  color: #cccccc;
+  font-family: "Merriweather", "Helvetica", arial, serif;
+  font-size: 1.65em;
 }
 
-/* line 8 */
+/* line 7 */
 html, body {
   height: 100%;
   margin: 0;
@@ -15,7 +14,7 @@ html, body {
   width: 100%;
 }
 
-/* line 14 */
+/* line 13 */
 table {
   border: none;
   height: 100%;
@@ -23,18 +22,18 @@ table {
   width: 800px;
 }
 
-/* line 19 */
+/* line 18 */
 td {
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 23 */
+/* line 22 */
 a {
   color: #cccccc;
 }
 
-/* line 26 */
+/* line 25 */
 #us {
   font-size: 0.5em;
   margin: 0;
@@ -44,22 +43,19 @@ a {
   top: 0;
 }
 
-/* line 35 */
+/* line 34 */
 .quote {
   margin: 0 auto 0 auto;
   width: 800px;
 }
 /* line 38 */
-.quote h1 {
-  font-weight: lighter;
-}
-/* line 42 */
 .quote .source {
   text-align: right;
+  font-weight: normal;
   font-style: italic;
 }
 
-/* line 46 */
+/* line 43 */
 .instructions {
   font-size: 0.75em;
   margin: 0 auto 0 auto;

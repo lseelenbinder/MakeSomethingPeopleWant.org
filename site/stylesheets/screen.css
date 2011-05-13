@@ -1,4 +1,4 @@
-/* line 1 */
+/* line 4 */
 body {
   background-color: black;
   color: #cccccc;
@@ -6,7 +6,7 @@ body {
   font-size: 1.65em;
 }
 
-/* line 7 */
+/* line 10 */
 html, body {
   height: 100%;
   margin: 0;
@@ -14,7 +14,7 @@ html, body {
   width: 100%;
 }
 
-/* line 13 */
+/* line 15 */
 table {
   border: none;
   height: 100%;
@@ -22,7 +22,7 @@ table {
   width: 800px;
 }
 
-/* line 19 */
+/* line 20 */
 td {
   text-align: center;
   vertical-align: middle;
@@ -31,6 +31,7 @@ td {
 /* line 23 */
 a {
   color: #cccccc;
+  text-decoration: none;
 }
 
 /* line 26 */
@@ -43,16 +44,21 @@ h2 {
   color: #005d97;
 }
 
-/* line 31 */
+/* line 30 */
 #us, #about {
   font-size: 0.5em;
   margin: 0;
   padding: 10px;
-  position: absolute;
+  position: fixed;
   right: 0;
 }
+/* line 37 */
+#us a:hover, #about a:hover {
+  color: #18a6ff;
+  text-decoration: underline;
+}
 
-/* line 39 */
+/* line 40 */
 #us {
   bottom: 0;
 }
@@ -62,19 +68,19 @@ h2 {
   top: 0;
 }
 
-/* line 45 */
+/* line 44 */
 .quote {
   margin: 0 auto 0 auto;
   width: 800px;
 }
-/* line 49 */
+/* line 47 */
 .quote .source {
   text-align: right;
   font-weight: normal;
   font-style: italic;
 }
 
-/* line 55 */
+/* line 52 */
 .instructions {
   font-size: 0.75em;
   margin: 0 auto 0 auto;

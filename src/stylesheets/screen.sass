@@ -1,6 +1,9 @@
+$grey: #cccccc
+$blue: #005D97
+
 body
   background-color: #000
-  color: #ccc
+  color: $grey
   font:
     family: "Merriweather", serif
     size: 1.65em
@@ -9,49 +12,43 @@ html, body
   margin: 0
   padding: 0
   width: 100%
-
 table
   border: none
   height: 100%
   margin: 0 auto 0 auto
   width: 800px
-
 td
   text-align: center
   vertical-align: middle
-
 a
-  color: #ccc
-
+  color: $grey
+  text-decoration: none
 img
   vertical-align: middle
 h2
-  color: #005D97
-
+  color: $blue
 #us, #about
   font:
     size: 0.5em
   margin: 0
   padding: 10px
-  position: absolute
+  position: fixed
   right: 0
-
+  a:hover
+    color: lighten($blue, 25%)
+    text-decoration: underline
 #us
   bottom: 0
-
 #about
   top: 0
-
 .quote
   margin: 0 auto 0 auto
   width: 800px
-
   .source
     text-align: right
     font:
       weight: normal
       style: italic
-
 .instructions
   font:
     size: 0.75em

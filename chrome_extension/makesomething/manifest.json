@@ -1,6 +1,6 @@
 {
     "name": "Make Something People Want",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Redirects your list of distracting sites to makesomethingpeoplewant.org",
     "background_page" : "background.html",
     "permissions" : [

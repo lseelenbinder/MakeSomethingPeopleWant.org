@@ -1,3 +1,11 @@
+// Check for first run and set default options
+if(localStorage["domains"] == undefined) {
+    localStorage["domains"] = "facebook.com\ntwitter.com";
+
+    //open up options page for initial configuration
+    chrome.tabs.create({url: chrome.extension.getURL("options.html")});
+}
+
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 
     if (changeInfo.url != null) {
@@ -12,7 +20,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
                         var url = "http://makesomethingpeoplewant.s3-website-us-east-1.amazonaws.com/";
                         chrome.tabs.update(tabId, {url:url});
                         break;
-                    }   
+                    }
                 }
             }
         }

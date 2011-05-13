@@ -2,7 +2,7 @@
 body {
   background-color: black;
   color: #cccccc;
-  font-family: "Merriweather", "Helvetica", arial, serif;
+  font-family: "Merriweather", serif;
   font-size: 1.65em;
 }
 
@@ -55,7 +55,7 @@ a {
   font-style: italic;
 }
 
-/* line 43 */
+/* line 44 */
 .instructions {
   font-size: 0.75em;
   margin: 0 auto 0 auto;

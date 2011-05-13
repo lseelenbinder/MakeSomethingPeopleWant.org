@@ -35,16 +35,27 @@ a {
 }
 
 /* line 26 */
+p a {
+  color: #cccccc;
+  text-decoration: underline;
+}
+/* line 29 */
+p a:hover {
+  color: #005d97;
+  text-decoration: none;
+}
+
+/* line 32 */
 img {
   vertical-align: middle;
 }
 
-/* line 28 */
+/* line 34 */
 h2 {
   color: #005d97;
 }
 
-/* line 30 */
+/* line 36 */
 #us, #about {
   font-size: 0.5em;
   margin: 0;
@@ -52,35 +63,35 @@ h2 {
   position: fixed;
   right: 0;
 }
-/* line 37 */
+/* line 43 */
 #us a:hover, #about a:hover {
   color: #18a6ff;
   text-decoration: underline;
 }
 
-/* line 40 */
+/* line 46 */
 #us {
   bottom: 0;
 }
 
-/* line 42 */
+/* line 48 */
 #about {
   top: 0;
 }
 
-/* line 44 */
+/* line 50 */
 .quote {
   margin: 0 auto 0 auto;
   width: 800px;
 }
-/* line 47 */
+/* line 53 */
 .quote .source {
   text-align: right;
   font-weight: normal;
   font-style: italic;
 }
 
-/* line 52 */
+/* line 58 */
 .instructions {
   font-size: 0.75em;
   margin: 0 auto 0 auto;

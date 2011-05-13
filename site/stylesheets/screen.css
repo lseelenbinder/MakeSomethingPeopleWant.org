@@ -35,12 +35,12 @@ a {
 }
 
 /* line 26 */
-p a {
+p a, li a {
   color: #cccccc;
   text-decoration: underline;
 }
 /* line 29 */
-p a:hover {
+p a:hover, li a:hover {
   color: #005d97;
   text-decoration: none;
 }

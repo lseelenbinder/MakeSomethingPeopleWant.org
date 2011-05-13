@@ -1,50 +1,55 @@
 <html>
     <head>
         <title>Make Something Options</title>
+
+        <script type="text/javascript">
+
+        // Saves options to localStorage.
+        function save_options() {
+            var domains = document.getElementById("domains");
+            localStorage["domains"] = domains.value;
+
+            // Update status to let user know options were saved.
+            var status = document.getElementById("status");
+            status.innerHTML = "Options Saved.";
+            setTimeout(function() {
+                status.innerHTML = "";
+            }, 750);
+        }
+
+        // Restores select box state to saved value from localStorage.
+        function restore_options() {
+            var domains = localStorage["domains"];
+            if (domains == undefined) {
+                domains = "facebook.com\ntwitter.com";
+            }
+
+            var select = document.getElementById("domains");
+            select.value = domains;
+        }
+
+        </script>
     </head>
-<script type="text/javascript">
 
-// Saves options to localStorage.
-function save_options() {
-  var domains = document.getElementById("domains");
-  localStorage["domains"] = domains.value;
+    <body onload="restore_options()">
+        <ul>
+            <li>To block multiple sites, add one per line.</li>
+            <li>Do not type the http://</li>
+            <li>If you want to block the entire site, leave off the www (i.e. cnn.com instead of www.cnn.com)</li>
+            <li>You can use a preceding asterisk as a wildcard</li>
+        </ul>
+        <p>Examples:</p>
+        <ul>
+            <li>facebook.com &mdash; blocks everything on facebook.com</li>
+            <li>reader.google.com &mdash; only blocks reader.google.com and not mail.google.com or www.google.com</li>
+            <li>*.google.com &mdash; blocks reader.google.com, mail.google.com, news.google.com, www.google.com, etc.</li>
+            <li>google.* &mdash; blocks google.org, google.com, etc.</li>
+        </ul>
+        <p>Enter one domain per line (remove all lines to disable):</p>
+        <textarea id="domains" rows="20" cols="20"></textarea>
+        <div id="status"></div>
 
-  // Update status to let user know options were saved.
-  var status = document.getElementById("status");
-  status.innerHTML = "Options Saved.";
-  setTimeout(function() {
-    status.innerHTML = "";
-  }, 750);
-}
-
-// Restores select box state to saved value from localStorage.
-function restore_options() {
-  var domains = localStorage["domains"];
-  var redirect = localStorage["redirect"];
-
-  var select = document.getElementById("domains");
-  select.value = domains;
-}
-
-</script>
-
-<body onload="restore_options()">
-    <ol>
-        <li>To block multiple sites, add one per line.</li>
-        <li>Do not type the http://</li>
-        <li>If you want to block the entire site, leave off the www (i.e. cnn.com instead of www.cnn.com)</li>
-        <li>You can use a preceding asterisk as a wildcard (i.e. *.com blocks all .com sites, or *foo blocks all domains with the word "foo" in them)</li>
-    </ol>
-    <p>E.g.,</p>
-    <ul>
-        <li>facebook.com - blocks everything on facebook.com</li>
-        <li>reader.google.com - only blocks reader.google.com and not mail.google.com or www.google.com</li>
-    </ul>
-    <p>Enter one domain per line:</p>
-    <textarea id="domains" rows="20" cols="20"></textarea>
-    <div id="status"></div>
-
-<br>
-<button onclick="save_options()">Save</button>
-</body>
+    <br>
+    <button onclick="save_options()">Save</button>
+    </body>
 </html>

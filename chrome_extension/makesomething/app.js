@@ -17,7 +17,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
                 if (domain.length != 0) {
                     var re = new RegExp(domain, ["i"]);
                     if (re.test(changeInfo.url)) {
-                        var url = "http://makesomethingpeoplewant.s3-website-us-east-1.amazonaws.com/";
+                        var url = "http://www.makesomethingpeoplewant.org/";
                         chrome.tabs.update(tabId, {url:url});
                         break;
                     }

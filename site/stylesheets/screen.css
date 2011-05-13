@@ -22,40 +22,59 @@ table {
   width: 800px;
 }
 
-/* line 18 */
+/* line 19 */
 td {
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 22 */
+/* line 23 */
 a {
   color: #cccccc;
 }
 
-/* line 25 */
-#us {
+/* line 26 */
+img {
+  vertical-align: middle;
+}
+
+/* line 28 */
+h2 {
+  color: #005d97;
+}
+
+/* line 31 */
+#us, #about {
   font-size: 0.5em;
   margin: 0;
   padding: 10px;
   position: absolute;
   right: 0;
+}
+
+/* line 39 */
+#us {
+  bottom: 0;
+}
+
+/* line 42 */
+#about {
   top: 0;
 }
 
-/* line 34 */
+/* line 45 */
 .quote {
   margin: 0 auto 0 auto;
   width: 800px;
 }
-/* line 38 */
+/* line 49 */
 .quote .source {
   text-align: right;
   font-weight: normal;
   font-style: italic;
 }
 
-/* line 44 */
+/* line 55 */
 .instructions {
   font-size: 0.75em;
   margin: 0 auto 0 auto;

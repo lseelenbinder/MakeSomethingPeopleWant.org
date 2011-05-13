@@ -29,27 +29,55 @@
         }
 
         </script>
+        <style type="text/css">
+            body {
+                background: #000;
+                color: #ccc;
+                font-size: 1.5em;
+                margin: 15px auto;
+                text-align: center;
+                width: 700px;
+            }
+            a {
+                color: #aaa;
+            }
+            textarea {
+                background: #333;
+                color: #fff;
+                font-family: monospace;
+                font-size: 1.25em;
+                margin: 10px auto;
+                width: 450px;
+            }
+            ul {
+                text-align: left;
+            }
+            .example {
+                font-family: monospace;
+            }
+        </style>
     </head>
 
     <body onload="restore_options()">
+        <h3>Make Something Options</h3>
+        <p>Make Something redirects the sites of your choice to <a href="http://makesomethingpeoplewant.s3-website-us-east-1.amazonaws.com/">makesomethingpeoplewant.org</a>.</p>
         <ul>
             <li>To block multiple sites, add one per line.</li>
-            <li>Do not type the http://</li>
-            <li>If you want to block the entire site, leave off the www (i.e. cnn.com instead of www.cnn.com)</li>
-            <li>You can use a preceding asterisk as a wildcard</li>
+            <li>Don't add the <span class="example">http://</span></li>
+            <li>If you want to block the entire site, leave off the <span class="example">www</span> (e.g., <span class="example">cnn.com</span> instead of <span class="example">www.cnn.com</span>)</li>
+            <li>You can use an asterisk (*) as a wildcard</li>
         </ul>
         <p>Examples:</p>
         <ul>
-            <li>facebook.com &mdash; blocks everything on facebook.com</li>
-            <li>reader.google.com &mdash; only blocks reader.google.com and not mail.google.com or www.google.com</li>
-            <li>*.google.com &mdash; blocks reader.google.com, mail.google.com, news.google.com, www.google.com, etc.</li>
-            <li>google.* &mdash; blocks google.org, google.com, etc.</li>
+            <li><span class="example">facebook.com</span> &mdash; blocks everything on facebook.com</li>
+            <li><span class="example">reader.google.com</span> &mdash; only blocks reader.google.com and not mail.google.com or www.google.com</li>
+            <li><span class="example">*.google.com</span> &mdash; blocks reader.google.com, mail.google.com, news.google.com, www.google.com, etc.</li>
+            <li><span class="example">google.*</span> &mdash; blocks google.org, google.com, etc.</li>
+                <li>Really hate the Yankees? You can even do that:</br><span class="example">yankees</span> &mdash; blocks every domain that contains the word yankees.
         </ul>
         <p>Enter one domain per line (remove all lines to disable):</p>
-        <textarea id="domains" rows="20" cols="20"></textarea>
+        <textarea id="domains" rows="10"></textarea>
         <div id="status"></div>
-
-    <br>
-    <button onclick="save_options()">Save</button>
+        <button onclick="save_options()">Save</button>
     </body>
 </html>

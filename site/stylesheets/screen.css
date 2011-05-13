@@ -56,6 +56,11 @@ h2 {
 }
 
 /* line 36 */
+ul {
+  text-align: left;
+}
+
+/* line 38 */
 #us, #about {
   font-size: 0.5em;
   margin: 0;
@@ -63,35 +68,35 @@ h2 {
   position: fixed;
   right: 0;
 }
-/* line 43 */
+/* line 45 */
 #us a:hover, #about a:hover {
   color: #18a6ff;
   text-decoration: underline;
 }
 
-/* line 46 */
+/* line 48 */
 #us {
   bottom: 0;
 }
 
-/* line 48 */
+/* line 50 */
 #about {
   top: 0;
 }
 
-/* line 50 */
+/* line 52 */
 .quote {
   margin: 0 auto 0 auto;
   width: 800px;
 }
-/* line 53 */
+/* line 55 */
 .quote .source {
   text-align: right;
   font-weight: normal;
   font-style: italic;
 }
 
-/* line 58 */
+/* line 60 */
 .instructions {
   font-size: 0.75em;
   margin: 0 auto 0 auto;

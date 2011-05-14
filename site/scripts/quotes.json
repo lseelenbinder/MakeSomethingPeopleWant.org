@@ -7,6 +7,7 @@
         {"author" : "Henry Ford", "quote" : "Failure is the opportunity to begin again more intelligently."},
         {"author" : "R.W. Emerson", "quote" : "Do not go where the path may lead; go instead where there is no path and leave a trail."},
         {"author" : "Voltaire", "quote" : "I detest what you write, but I would give my life to make it possible for you to continue to write."},
-        {"author" : "Nordstrom Employee Manual", "quote" : "Rule #1: Use best judgement in all situations. There will be no additional rules."}
+        {"author" : "Nordstrom Employee Manual", "quote" : "Rule #1: Use best judgement in all situations. There will be no additional rules."},
+        {"author" : "Nike, inc.", "quote" : "Just do it."}
     ]
 }
